@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,500;1,500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: #0C134F;
+    color: #EDEDEE;
+   
+}
+
+.titulo_destaque{
+    color: #D4ADFC;
+}
+
+.apresentacao {
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+} 
+
+.apresentacao_conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.apresentacao_conteudo__titulo{
+    font-size: 36px;
+    font-family: "Open Sans", serif;
+}
+
+.apresentacao_conteudo__texto {
+    font-size: 24px;
+    font-family: "Montserrat", serif;
+}
+
+.apresentacao_conteudo__rodape{
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    color: #9290C3;
+}
+
+.apresentacao__redes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__redes__linkedin {
+    background-color: #EDEDEE;
+    width:186px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #5C469C;
+    
+}
+
+.apresentacao__redes__GitHub {
+    background-color: #EDEDEE;
+    width:148px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    padding: 16px 0;
+    text-decoration: none;
+}
+
+
+.apresentacao__redes__Instagram{
+    background-color: #EDEDEE;
+    width:231px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+
+img {
+    width: 30%;
+    height: 30%;
+       
+}
