@@ -11,13 +11,13 @@
 body{
     min-height: 100vh;
     box-sizing: border-box;
-    background-color: #0C134F;
+    background-color: #040722;
     color: #EDEDEE;
    
 }
 
 .titulo_destaque{
-    color: #D4ADFC;
+    color: #fc06e7;
 }
 
 .apresentacao {
@@ -48,7 +48,7 @@ body{
 .apresentacao_conteudo__rodape{
     font-size: 15px;
     font-family: "Roboto", serif;
-    color: #9290C3;
+    color: #E7A3FC;
 }
 
 .apresentacao__redes{
