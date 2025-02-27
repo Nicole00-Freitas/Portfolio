@@ -9,7 +9,7 @@
 }
 
 body{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     box-sizing: border-box;
     background-color: #040722;
     color: #EDEDEE;
@@ -21,7 +21,7 @@ body{
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,7 +51,6 @@ body{
     color: #EDEDEE;
 }
 
-
 .apresentacao__redes{
     display: flex;
     flex-direction: column;
@@ -68,6 +67,9 @@ body{
 
 .apresentacao__redes__link{
     /* background-color: #EDEDEE; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     border: 2px solid #fc06e7;
     width:231px;
     text-align: center;
@@ -79,9 +81,26 @@ body{
     font-family: "Roboto", serif;
 }
 
+.apresentacao__redes__link:hover{
+    background-color: #0a114e;
+}
 
-img {
-    width: 30%;
-    height: 30%;
+
+.foto {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 25%;
+    margin: 0 10% 15% 0;
        
+}
+
+.rodape{
+   padding: 24px;
+   color: #EDEDEE;
+   background-color: #0a114e; 
+   text-align: center;
+   font-family: "Montserrat", serif;
+   font-size: 20px;
+   font-weight: 400;
 }
