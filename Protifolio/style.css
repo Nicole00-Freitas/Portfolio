@@ -46,50 +46,37 @@ body{
 }
 
 .apresentacao_conteudo__rodape{
-    font-size: 15px;
-    font-family: "Roboto", serif;
-    color: #E7A3FC;
+    font-size: 17px;
+    font-family: "Montserrat", serif;
+    color: #EDEDEE;
 }
+
 
 .apresentacao__redes{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
-.apresentacao__redes__linkedin {
-    background-color: #EDEDEE;
-    width:186px;
-    text-align: center;
-    border-radius: 10px;
+.apresentacao__redes__subtitulo{
     font-family: "Roboto", serif;
+    font-weight: 300;
     font-size: 20px;
-    padding: 15px 0;
-    text-decoration: none;
-    color: #5C469C;
-    
 }
 
-.apresentacao__redes__GitHub {
-    background-color: #EDEDEE;
-    width:148px;
-    text-align: center;
-    border-radius: 10px;
-    font-family: "Roboto", serif;
-    font-size: 20px;
-    padding: 16px 0;
-    text-decoration: none;
-}
-
-
-.apresentacao__redes__Instagram{
-    background-color: #EDEDEE;
+.apresentacao__redes__link{
+    /* background-color: #EDEDEE; */
+    border: 2px solid #fc06e7;
     width:231px;
     text-align: center;
-    border-radius: 10px;
-    font-family: "Roboto", serif;
+    border-radius: 8px;
     font-size: 20px;
     padding: 15px 0;
     text-decoration: none;
+    color: #EDEDEE;
+    font-family: "Roboto", serif;
 }
 
 
